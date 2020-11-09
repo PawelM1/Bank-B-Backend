@@ -1,0 +1,7 @@
+CREATE TABLE CLIENT
+(
+    `CLIENT_ID`        BIGINT       NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `NAME_AND_ADDRESS` varchar(250) NOT NULL,
+    `EMAIL`            varchar(50)  NOT NULL,
+    `PHONE_NUMBER`     varchar(9)  NOT NULL
+);
