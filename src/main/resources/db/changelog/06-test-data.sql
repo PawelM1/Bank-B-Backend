@@ -1,0 +1,7 @@
+INSERT INTO "PUBLIC"."CLIENT" VALUES
+(2, 'Adam Małysz, Empire Bay', 'test@xd.pl', '123456789'),
+(3, 'Mariusz Pudzian, Rzeszów', 'test2@xd.pl', '123456798');
+
+INSERT INTO "PUBLIC"."ACCOUNT" VALUES
+(2, '54103021722058755377131423', 0, 2),
+(3, '03103021723331537136028387', 0, 3);
